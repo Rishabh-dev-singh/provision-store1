@@ -132,7 +132,7 @@ const ProductList = ({ accessToken }) => {
           borderRadius="md"
           bg="white"
           boxShadow="md"
-          mt={20}  // Adjust the margin-top to prevent content from being hidden behind the fixed header
+          mt={20}  
         >
           {Array.isArray(products) && products.length > 0 ? (
             products.map((product) => (
@@ -175,7 +175,7 @@ const theme = extendTheme({
     global: {
       body: {
         bg: 'none',
-        margin: 0, // Remove default margin to ensure full-width
+        margin: 0, 
       },
     },
   },
